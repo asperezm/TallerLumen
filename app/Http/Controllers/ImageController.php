@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Storage;
 
-class ImageController extends Controller
+class ImageController extends BaseController
 {
     public static $images = array(
         "1.jpeg",
